@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sock {
+    background-color: white;
+    position: relative;
+    bottom: 30px;
+    z-index: 200000;
+}
+.sock img {
+    height: 30px;
+
+}
+
+.sock li {
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    float: right;
+    padding: 7px;
+    background-color: transparent;
+}
+
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    left: 0px;
+
+    z-index: 1;
+}
+
+
+.logo img{
+    width: 300px;
+    background-color: transparent;
+    position: relative;
+    top: -10px;
+    left: -440px;
+    z-index: 1000;
+}
+
+
+.navigation li {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 12px;
+    letter-spacing: 4px;
+    background-color: white;
+    z-index: 2000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation li a {
+    color: #2596be;
+    z-index: 10;
+   
+}
+
+.newsletter {
+    position: relative;
+    right: 20px;
+    bottom: 90px;
+    float: right;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1000;
+    background-color: white;
+    
+    
+}
+
+.newsletter a {
+    color: #2596be;
+    border: 3px solid #f8c7ea;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px; 
+}
+
+.newsletter :hover {
+    color: #f8c7ea;
+    background-color: #2596be;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+    height: 129px;
+    z-index: 5000;
+    background-color: white;
+    border: 5px solid white;
+    text-align: center;
+    
+}
+
+.chadi {
+    position: relative;
+    top: 130px;
+    border-top: 200px solid #acebeb;
+    border-bottom: 150px solid transparent;
+    border-right: 200px solid #acebeb;
+    border-left: 200px solid #acebeb;
+    border-left-width: 900px;
+    border-right-width: 400px;
+    z-index: 997;
+}
+
+.fork {
+    position: relative;
+    left: 250px;
+    top: 150px;
+    z-index: 996;
+    background-color: transparent;
+}
+
+.fork img {
+    height: 700px;
+    background-color: transparent;
+}
+
+.contentnumberone {
+    height: 250px;
+    width: 450px;
+    background-color: #f8c7ea;
+    border-radius: 50px;
+    color: #2596be;
+    text-align: center;
+    position: relative;
+    bottom: 750px;
+    left: 200px;
+    z-index: 998;
+
+}
+
+.contentnumberone h1 {
+
+    background-color: #f8c7ea;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+    
+}
+
+.box .buttonsone {
+    
+    background-color: yellow;
+    width: 450px;
+    border-radius: 50px;
+}
+
+.buttonsone ul {
+    background-color: #f8c7ea;
+    padding-top: 40px;
+    height: 100px;
+    width: 450px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+.buttonsone  li {
+    background-color: #acebeb;
+    width: 180px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;   
+}
+
+.buttonsone li:hover {
+    background-color: white;
+    color: #f8c7ea;
+    border: #f8c7ea;
+}
+
+.bowl {
+background-color: transparent;
+position: relative;
+bottom: 1170px;
+float: right;
+right: 100px;
+z-index: 998;
+}
+
+.bowl img {
+    background-color: transparent;
+    height: 590px;
+
+}
+
+.contenttwo {
+    background-color: white;
+    text-align: left;
+    float: right;
+    width: 600px;
+    height:300px;
+    position: relative;
+    bottom: 500px;
+    left: 600px;
+
+
+}
+
+.contenttwo h2 {
+    background-color: white;
+    height: 150px;
+    width: 600px;
+    position: relative;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.contenttwo p {
+    background-color: white;
+    height: 80px;
+    width: 600px;
+    position: relative;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+
+.contenttwo .buttonstwo {
+    display: inline-block;
+    background-color: white;
+    height: 44px;
+    width:  200px;
+    position: relative;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 3px solid #f8c7ea;
+    color:#2596be;
+    letter-spacing: 4px;
+    text-align: center;
+    color:#2596be;
+}
+
+.buttonstwo a {
+    color:#2596be;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+ .contenttwo .buttonstwo :hover {
+    background-color: red;
+ }
